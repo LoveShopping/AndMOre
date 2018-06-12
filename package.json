@@ -1,35 +1,41 @@
 {
-  "name": "data-pixels-playground",
-  "version": "1.0.0",
-  "description": "Create pixel art programmatically",
-  "author": "Geoffrey Mattie",
-  "license": "MIT",
-  "main": "main.js",
+  "name": "addthis-wordpress-plugin",
+  "version": "2.0.0",
+  "description": "AddThis WordPress plugins base",
   "scripts": {
-    "dev": "gulp --development",
-    "prod": "gulp --production",
-    "dev-prod": "gulp --development --production"
+    "test": "mocha test"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://git.clearspring.local/addthis-wordpress-plugin.git"
+  },
+  "author": "AddThis <plugins@addthis.com>",
+  "license": "GPLv2",
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-latest": "^6.24.1",
-    "browser-sync": "^2.18.8",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-postcss": "^6.4.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-util": "^3.0.8",
-    "gulp": "^3.9.1",
-    "uglify-js": "^2.8.26",
-    "uglifyjs-webpack-plugin": "^0.4.3",
-    "webpack-stream": "^3.2.0",
-    "webpack": "^2.5.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "angular": "1.5.9",
+    "angular-aria": "1.5.9",
+    "angular-hotkeys": "^1.7.0",
+    "angular-translate": "^2.9.2",
+    "angular-translate-loader-static-files": "^2.9.2",
+    "angular-ui-router": "^0.2.18",
+    "chai": "^3.5.0",
+    "express": "^4.13.3",
+    "gettext-parser": "^1.1.2",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-clean-css": "^2.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-foreach": "^0.1.0",
+    "gulp-htmlclean": "^2.7.6",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.0",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.5.3",
+    "po2json": "^0.4.1",
+    "sort-object": "^3.0.2",
+    "supertest": "^1.2.0",
+    "uglify-save-license": "^0.4.1"
+  }
 }
